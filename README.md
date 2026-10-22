@@ -6,11 +6,12 @@ El formato ("CircuitMaker Text 5.6") se decodificó por ingeniería inversa a pa
 
 ## Contenido
 
-- `SKILL.md`: instrucciones completas del skill (formato, tablas de partes, flujo de trabajo).
+- `SKILL.md`: instrucciones del skill (flujo de trabajo, API, tablas de partes, modelos SPICE, formato).
+- `scripts/ckt.py`: lector, generador, verificador y vista previa de `.CKT` (Python 3; Pillow solo para `render`).
 
 ## Uso
 
-Copia `SKILL.md` en una carpeta `circuitmaker-ckt/` dentro de tu directorio de skills de Claude y pídele a Claude que genere un circuito en formato `.CKT`.
+Copia `SKILL.md` y la carpeta `scripts/` en una carpeta `circuitmaker-ckt/` dentro de tu directorio de skills de Claude y pídele a Claude que genere un circuito en formato `.CKT`.
 
 ## Autor
 
